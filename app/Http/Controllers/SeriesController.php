@@ -11,6 +11,7 @@ use App\Servicos\RemovedorSerie;
 use App\Temporada;
 use function Faker\Provider\pt_BR\check_digit;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 
 class SeriesController extends Controller
@@ -18,9 +19,7 @@ class SeriesController extends Controller
     public function index(Request $request)
     {
        $series=Serie::query()->orderBy('nome')->get();
-
        $mensagem= $request->session()->get('mensagem');
-
        return view('series.index', compact('series','mensagem'));
     }
 
@@ -55,4 +54,11 @@ class SeriesController extends Controller
         return redirect()->route('listar_series');
     }
 
+    public function editaNome(int $serieId,Request $request)
+    {
+        $novoNome=$request->nome;
+        $serie=Serie::find($serieId);
+        $serie->nome=$novoNome;
+        $serie->save();
+    }
 }
