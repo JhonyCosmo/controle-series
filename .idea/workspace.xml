@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52fb8c19-d69d-4948-b900-751f877b0f8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.testing" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/entrar/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/episodios/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/mensagem.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/registro/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Temporada.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Temporada.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/series/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/series/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/temporadas/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/temporadas/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,32 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env.testing">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/CriadorDeSerieTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="e#33#47#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="187">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -92,7 +54,6 @@
       <list>
         <option value="$PROJECT_DIR$/resources/views/series/index.php" />
         <option value="$PROJECT_DIR$/resources/views/series/create.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_09_002839_criar_tabela_series.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/SeriesFormRequest.php" />
         <option value="$PROJECT_DIR$/app/Serie.php" />
@@ -127,6 +88,8 @@
         <option value="$PROJECT_DIR$/tests/Unit/TemporadaTest.php" />
         <option value="$PROJECT_DIR$/.env.testing" />
         <option value="$PROJECT_DIR$/tests/Feature/CriadorDeSerieTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/RemovedorDeSerieTest.php" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -273,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.CriadorDeSerieTest">
+  <component name="RunManager" selected="PHPUnit.RemovedorDeSerieTest">
     <configuration name="CriadorDeSerieTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\CriadorDeSerieTest" file="$PROJECT_DIR$/tests/Feature/CriadorDeSerieTest.php" scope="Class" />
       <method v="2" />
@@ -282,12 +245,22 @@
       <TestRunner class="Tests\Feature\CriadorDeSerieTest" file="$PROJECT_DIR$/tests/Feature/CriadorDeSerieTest.php" method="testeCriarSerie" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="RemovedorDeSerieTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\RemovedorDeSerieTest" file="$PROJECT_DIR$/tests/Feature/RemovedorDeSerieTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RemovedorDeSerieTest.testRemoverUmaSerie" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\RemovedorDeSerieTest" file="$PROJECT_DIR$/tests/Feature/RemovedorDeSerieTest.php" method="testRemoverUmaSerie" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.RemovedorDeSerieTest" />
+        <item itemvalue="PHPUnit.RemovedorDeSerieTest.testRemoverUmaSerie" />
         <item itemvalue="PHPUnit.CriadorDeSerieTest" />
         <item itemvalue="PHPUnit.CriadorDeSerieTest.testeCriarSerie" />
       </list>
@@ -325,7 +298,8 @@
       <workItem from="1558808956832" duration="6422000" />
       <workItem from="1558874635294" duration="4316000" />
       <workItem from="1558906483888" duration="10575000" />
-      <workItem from="1558971438431" duration="1591000" />
+      <workItem from="1558971438431" duration="1782000" />
+      <workItem from="1559004939341" duration="2603000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Inicial">
       <created>1558659383199</created>
@@ -347,9 +321,27 @@
     <history-entry file="CriadorDeSerieTest - 2019.05.27 at 13h 02m 38s.xml">
       <configuration name="CriadorDeSerieTest" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="CriadorDeSerieTest - 2019.05.27 at 13h 04m 01s.xml">
+      <configuration name="CriadorDeSerieTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CriadorDeSerieTest - 2019.05.27 at 13h 04m 56s.xml">
+      <configuration name="CriadorDeSerieTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RemovedorDeSerieTest - 2019.05.27 at 22h 17m 35s.xml">
+      <configuration name="RemovedorDeSerieTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RemovedorDeSerieTest - 2019.05.27 at 22h 19m 00s.xml">
+      <configuration name="RemovedorDeSerieTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RemovedorDeSerieTest_testRemoverUmaSerie - 2019.05.27 at 22h 19m 26s.xml">
+      <configuration name="RemovedorDeSerieTest.testRemoverUmaSerie" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RemovedorDeSerieTest - 2019.05.27 at 22h 19m 37s.xml">
+      <configuration name="RemovedorDeSerieTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70346000" />
+    <option name="totallyTimeSpent" value="73140000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,13 +356,13 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3068826" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3125506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29662523" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29662523" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,7 +371,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.339254" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.339254" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -426,7 +418,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.921/2019_03_23_185334_create_temporadas_table.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.308/2019_03_23_185334_create_temporadas_table.php" />
     <entry file="file://$USER_HOME$/Desktop/2019_03_23_185334_create_temporadas_table.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -723,10 +714,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/RemovedorDeSerieTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="731">
+          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding>
+            <element signature="e#33#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/CriadorDeSerieTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#47#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -737,13 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/CriadorDeSerieTest.php">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#33#47#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
